@@ -1,8 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
 
 class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      players: [],
+      loading: true,
+    }
+  }
+
+  componentDidMount() {
+    axios.get('http://localhost:5000/api/players')
+      .then(response => {
+        console.log(response)
+      })
+
+  }
+
   render() {
     return(
       <div>
