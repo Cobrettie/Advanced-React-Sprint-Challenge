@@ -12,6 +12,7 @@ export default function PlayerCard(props) {
             <PlayerCardDiv key={player.id} >
               <p>Name: {player.name}</p>
               <p>Country: {player.country}</p>
+              <p>Google Searches from June-July 2019, worldwide: {player.searches}</p>
             </PlayerCardDiv> 
           )          
         })}
