@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavContainerDiv, StyledNav, StyledNavItem } from './NavMenuStyles';
 
 export default function NavMenu() {
   return (
-    <div>
-      <nav>
-        <p>navlink 1</p>
-        <p>navlink 2</p>
-      </nav>
-    </div>
+    <NavContainerDiv>
+      <StyledNav>
+        <StyledNavItem>navlink 1</StyledNavItem>
+        <StyledNavItem>navlink 2</StyledNavItem>
+      </StyledNav>
+    </NavContainerDiv>
   )
 }
