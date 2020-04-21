@@ -25,7 +25,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>
+      <div className='App'>
         <NavMenu />
         <h1>Womens World Cup Players, Ranked by Google Searches</h1>
         {this.state.loading === false ? <PlayerCard players={this.state.players} /> : null }
