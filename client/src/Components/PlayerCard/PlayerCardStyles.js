@@ -7,8 +7,8 @@ export const CardContainerDiv = styled.div`
 `;
 
 export const PlayerCardDiv = styled.div`
-  border: 1px solid #373737;
-  width: 15%;
+  border: 1px solid grey;
+  width: 20%;
   padding: 10px;
   margin: 20px;
   border-radius: 5px;
