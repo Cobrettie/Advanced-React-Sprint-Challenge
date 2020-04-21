@@ -17,7 +17,9 @@ export default function NavMenu() {
         <StyledNavItem>Women's World Cup Players</StyledNavItem>
         <div 
           onClick={toggleDarkMode} 
-          className={darkMode ? 'toggled darkModeToggler' : 'darkModeToggler'}>Toggle Dark Mode
+          className={darkMode ? 'toggled darkModeToggler' : 'darkModeToggler'}
+          data-testid='darkModeToggler'
+          >Toggle Dark Mode
         </div>
       </nav>
     </div>
