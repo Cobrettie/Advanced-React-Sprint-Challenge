@@ -32,6 +32,13 @@
   }
 }
 
+/* Body dark mode styling */
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
 /* NavMenu Styling */
 
 .styledNav {
@@ -41,6 +48,7 @@
   justify-content: space-between;
   height: 70px;
   padding: 0 3%;
+  border-bottom: 2px solid #373737;
   -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
@@ -49,6 +57,7 @@
 .darkModeNav {
   background: #373737;
   color: #61dafb;
+  border-bottom: 2px solid #61dafb;
 }
 
 .darkModeToggler {
